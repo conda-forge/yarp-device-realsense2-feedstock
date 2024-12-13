@@ -18,6 +18,8 @@ cxx_compiler:
 - clangxx
 cxx_compiler_version:
 - '18'
+librealsense:
+- '2.54'
 libyarp:
 - 3.10.1
 macos_machine:
