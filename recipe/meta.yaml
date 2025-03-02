@@ -10,7 +10,7 @@ source:
   sha256: bf0b1a83aba5615191e67b9592a79e47121869d5d9b79437e72f46830c24ab97
 
 build:
-  number: 1
+  number: 2
   # librealsense conda package is not available on Windows
   skip: true  # [win]
 
