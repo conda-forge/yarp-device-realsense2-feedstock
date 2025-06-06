@@ -1,5 +1,5 @@
 {% set name = "yarp-device-realsense2" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/robotology/yarp-device-realsense2/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: bf0b1a83aba5615191e67b9592a79e47121869d5d9b79437e72f46830c24ab97
+  sha256: c65e1bf68460ff6a9a21591086f2378d1917a7e1c22e6ccb4222138dd1af22ca
 
 build:
-  number: 3
+  number: 0
   # librealsense conda package is not available on Windows
   skip: true  # [win]
 
