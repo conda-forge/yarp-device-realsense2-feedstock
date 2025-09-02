@@ -19,7 +19,7 @@ cxx_compiler_version:
 docker_image:
 - quay.io/condaforge/linux-anvil-x86_64:alma9
 librealsense:
-- '2.55'
+- '2.56'
 libyarp:
 - 3.12.1
 target_platform:
