@@ -31,8 +31,8 @@ test:
     # extension that add_library(... SHARED) typically have
     - test -f ${PREFIX}/lib/yarp/yarp_realsense2.so  # [not win]
     - test -f ${PREFIX}/lib/yarp/yarp_realsense2withIMU.so  # [not win]
-    - if not exist %PREFIX%\\Library\\bin\\yarp_realsense2.dll exit 1  # [win]
-    - if not exist %PREFIX%\\Library\\bin\\yarp_realsense2withIMU.dll exit 1  # [win]
+    - if not exist %PREFIX%\\Library\\lib\\yarp\\yarp_realsense2.dll exit 1  # [win]
+    - if not exist %PREFIX%\\Library\\lib\\yarp\\yarp_realsense2withIMU.dll exit 1  # [win]
 
 about:
   home: https://github.com/robotology/yarp-device-realsense2
