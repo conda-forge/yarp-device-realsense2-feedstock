@@ -44,4 +44,5 @@ about:
 extra:
   feedstock-name: yarp-device-realsense2
   recipe-maintainers:
+    - Nicogene
     - traversaro
