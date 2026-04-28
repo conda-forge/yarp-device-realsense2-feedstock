@@ -1,5 +1,5 @@
 {% set name = "yarp-device-realsense2" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/robotology/yarp-device-realsense2/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 63a92c0d7a7dd820e237bd628da9bdb82f352c8a65a8292edd2c1e6ce6e1ab01
+  sha256: 42ead97c40a4e0035d249c6d2dbee5def4f38bbc78b263c0bf431ff87b00d443
 
 build:
   number: 0
