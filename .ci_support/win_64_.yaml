@@ -11,6 +11,6 @@ cxx_compiler:
 librealsense:
 - '2.57'
 libyarp:
-- 3.12.2
+- 3.12.3
 target_platform:
 - win-64
