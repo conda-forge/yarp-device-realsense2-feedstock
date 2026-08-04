@@ -9,7 +9,7 @@ channel_targets:
 cxx_compiler:
 - vs2022
 librealsense:
-- '2.57'
+- '2.58'
 libyarp:
 - 3.12.3
 target_platform:
