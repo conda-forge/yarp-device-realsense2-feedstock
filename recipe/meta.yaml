@@ -18,7 +18,7 @@ requirements:
     - {{ stdlib('c') }}
     - {{ compiler('cxx') }}
     - cmake
-    - pkg-config
+    - pkgconf
     - ninja
   host:
     - librealsense
